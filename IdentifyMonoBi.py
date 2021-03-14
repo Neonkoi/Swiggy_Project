@@ -1,8 +1,8 @@
+# This script will take the data transcription tsv file from a dataset as an argument, and output wether IDs in the transcript
+# correspond to Bilingual or Monolingual data. A csv file will also be created containing a list of the results.
+# USAGE: Place this script in either the Train or the Dev folder (not necesary). Run using the system console and pass the .tsv file as argument.
+
 import sys, re, csv
-
-#------ FUNCTION DEFINITIONS ------
-
-#----------------------------------
 
 inputFileName = sys.argv[1]
 
